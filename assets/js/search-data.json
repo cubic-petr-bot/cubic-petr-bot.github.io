@@ -1,0 +1,58 @@
+{"0": {
+    "doc": "Fetcher",
+    "title": "CURRENTLY IN DEVELOPMENT",
+    "content": " ",
+    "url": "/docs/commands/fetcher.html#currently-in-development",
+    
+    "relUrl": "/docs/commands/fetcher.html#currently-in-development"
+  },"1": {
+    "doc": "Fetcher",
+    "title": "Fetcher",
+    "content": " ",
+    "url": "/docs/commands/fetcher.html",
+    
+    "relUrl": "/docs/commands/fetcher.html"
+  },"2": {
+    "doc": "About Petr³",
+    "title": "About Petr³",
+    "content": "This bot was originally developed for the Rubik’s Cube Club @ UCI Discord server! . The primary function of Petr³ is facilitate seemless integration between the World Cube Association (WCA) website and Discord servers by allowing users to link their Discord accounts with their unique IDs, receive catered notifications about local speedcubing competitions based on location preference, and share their profiles with others. Petr³ is written in Python using the discord.py library among other libraries including: . | Aiohttp to make asynchronous requests to the World Cube Assocation website and other relevant APIs | Aiosqlite to store and retrieve information from a sqlite3 database asynchronously | BeautifulSoup to parse through HTML efficiently | Geopy to calculate distances between a user-specified headquarters and local speedcubing competitions | . Among these libraries, several APIs are utilized to retrieve up-to-date global data: . | World Cube Association’s API v0 | Unofficial World Association API | . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"3": {
+    "doc": "About Petr³",
+    "title": "Inviting Petr³",
+    "content": "To invite Petr³ to your own Discord server, follow the steps below. | Click on the following link: | Select the server you want to invite Petr³ to… | Complete the CAPTCHA and enjoy! | . Alternatively, you can directly add Petr³ by clicking on its Discord profile and clicking + Add App! . ",
+    "url": "/#inviting-petr",
+    
+    "relUrl": "/#inviting-petr"
+  },"4": {
+    "doc": "Commands",
+    "title": "Commands",
+    "content": "Petr³ strictly uses slash commands in Discord. All you have to do is type / and you should be able to see a dropdown menu with all commands. Start typing a command and press ENTER for it to be autocompleted for you. Some commands have OPTIONAL or REQUIRED arguments that you must provide. ",
+    "url": "/docs/commands/",
+    
+    "relUrl": "/docs/commands/"
+  },"5": {
+    "doc": "Setup",
+    "title": "Setup",
+    "content": "Setup is simple with Petr³. Most commands are available for use upon it joining your Discord server. However, some extra steps are required for the server to receive notifications. ",
+    "url": "/docs/commands/setup.html",
+    
+    "relUrl": "/docs/commands/setup.html"
+  },"6": {
+    "doc": "Setup",
+    "title": "/sethq",
+    "content": " ",
+    "url": "/docs/commands/setup.html#sethq",
+    
+    "relUrl": "/docs/commands/setup.html#sethq"
+  },"7": {
+    "doc": "Setup",
+    "title": "/notifcations",
+    "content": " ",
+    "url": "/docs/commands/setup.html#notifcations",
+    
+    "relUrl": "/docs/commands/setup.html#notifcations"
+  }
+}
