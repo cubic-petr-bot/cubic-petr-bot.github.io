@@ -28,7 +28,7 @@ This bot was originally developed for the Rubik's Cube Club @ UCI Discord server
   </a> 
 </div>
 
-The primary function of Petr³ is facilitate seemless integration between the World Cube Association (WCA) website and Discord servers by allowing users to link their Discord accounts with their unique IDs, receive catered notifications about local speedcubing competitions based on location preference, and share their profiles with others. 
+The primary function of Petr³ is to facilitate seemless integration between the World Cube Association (WCA) website and Discord servers by allowing users to link their Discord accounts with their unique IDs, receive catered notifications about local speedcubing competitions based on location preference, and share their profiles with others. 
 
 Petr³ is written in Python using the [discord.py](https://discordpy.readthedocs.io/en/stable/) library among other libraries including: 
 * [Aiohttp](https://docs.aiohttp.org/en/stable/) to make asynchronous requests to the World Cube Assocation website and other relevant APIs
