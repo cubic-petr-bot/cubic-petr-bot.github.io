@@ -43,10 +43,37 @@ Among these libraries, several APIs are utilized to retrieve up-to-date global d
 # Inviting Petr³
 {: .fs-9 .fw-700 }
 
-To invite Petr³ to your own Discord server, follow the steps below. 
-1. Click on the following link: 
-2. Select the server you want to invite Petr³ to...
-3. Complete the CAPTCHA and enjoy!
+<p>To invite Petr³ to your own Discord server:</p>
+<div style="
+  display: flex; 
+  align-items: center; 
+  gap: 10px;">
+  <span>1. Click this button</span>
+  <div style="
+    background-color: #255799; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 15px; 
+    display: inline-flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    white-space: nowrap;">
+    <a href="https://discord.com/oauth2/authorize?client_id=1266274979129987083" 
+       style="
+         color: white; 
+         text-decoration: none; 
+         font-size: 16px; 
+         font-weight: bold;">
+      Add App
+    </a>
+  </div>
+</div>
+<p>2. Select a server from the dropdown menu</p>
+<p>3. Complete the CAPTCHA and enjoy!</p>
 
-Alternatively, you can directly add Petr³ by clicking on its Discord profile and clicking + Add App!
+
+
+
+
 {: .fs-6. fw-300}

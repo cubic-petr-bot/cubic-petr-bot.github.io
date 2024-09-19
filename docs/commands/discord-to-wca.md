@@ -1,46 +1,43 @@
 ---
 layout: default
-title: Fetcher
+title: Discord to WCA
 parent: Commands
-nav_order: 2
+nav_order: 3
 nav_exclude: false
 ---
 
-## Fetcher
+## Discord to WCA
 {: .fs-9 .fw-700 }
 
-Petr³ can retrieve and embed WCA information of competitors/competitions right into Discord.
+Petr³ can link any WCA ID to each user and remember it globally across all Discord servers. 
 {: .fs-6 .fw-300 }
 
 <div style="display: flex; align-items: center; gap: 10px;">
-  <h2 style="margin: 0;">/info</h2>
+  <h2 style="margin: 0;">/link</h2>
   <div style="background-color: #255799; color: white; padding: 5px 10px; border-radius: 15px; display: flex; justify-content: center; align-items: center; text-align: center; width: auto;">
     query
   </div>
 </div>
 
-<i> Fetches information about a WCA competitor. </i>
+<i> Starts the linking process for the invoking Discord user.</i>
 
 * query: The search query i.e. Peter Anteater, 2024PETE01
 
+DMs must be open as Petr³ will generate and send a verification code directly, unique and private to each user.
+
 <div style="display: flex; align-items: center; gap: 10px;">
-  <h2 style="margin: 0;">/competition</h2>
+  <h2 style="margin: 0;">/verify</h2>
   <div style="background-color: #255799; color: white; padding: 5px 10px; border-radius: 15px; display: flex; justify-content: center; align-items: center; text-align: center; width: auto;">
-    query
+    code
   </div>
 </div>
 
-<i> Fetches information about a WCA competition </i>
+<i> Verifies a link from a provided verification code.</i>
 
-* query: The search query i.e. Irvine Fall 2023, IrvineFall2023
+* code: The verification code provided by Petr³.
 
 <div style="display: flex; align-items: center; gap: 10px;">
-  <h2 style="margin: 0;">/pr</h2>
-  <div style="background-color: #255799; color: white; padding: 5px 10px; border-radius: 15px; display: flex; justify-content: center; align-items: center; text-align: center; width: auto;">
-    query
-  </div>
+  <h2 style="margin: 0;">/unlink</h2>
 </div>
 
-<i> Fetches the current personal records of a WCA competitor. </i>
-
-* query: The search query i.e. Peter Anteater, 2024PETE01
+<i> Unlinks the corresponding WCA ID of the invoking Discord user.</i>
