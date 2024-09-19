@@ -19,7 +19,7 @@ Petr³ can link any WCA ID to each user and remember it globally across all Disc
   </div>
 </div>
 
-<i> Starts the linking process for the invoking Discord user.</i>
+<i> Starts the linking process for your Discord account.</i>
 
 * query: The search query i.e. Peter Anteater, 2024PETE01
 
@@ -32,7 +32,15 @@ DMs must be open as Petr³ will generate and send a verification code directly, 
   </div>
 </div>
 
-<i> Verifies a link from a provided verification code.</i>
+<i> Verifies a DiscordToWCA link from a provided verification code.</i>
+
+* code: The verification code provided by Petr³.
+
+<div style="display: flex; align-items: center; gap: 10px;">
+  <h2 style="margin: 0;">/id</h2>
+</div>
+
+<i> Get the WCA ID associated with your Discord account..</i>
 
 * code: The verification code provided by Petr³.
 
@@ -40,4 +48,4 @@ DMs must be open as Petr³ will generate and send a verification code directly, 
   <h2 style="margin: 0;">/unlink</h2>
 </div>
 
-<i> Unlinks the corresponding WCA ID of the invoking Discord user.</i>
+<i> Unlinks your WCA ID from your Discord account.</i>

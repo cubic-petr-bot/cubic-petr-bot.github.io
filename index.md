@@ -72,8 +72,4 @@ Among these libraries, several APIs are utilized to retrieve up-to-date global d
 <p>2. Select a server from the dropdown menu</p>
 <p>3. Complete the CAPTCHA and enjoy!</p>
 
-
-
-
-
 {: .fs-6. fw-300}
